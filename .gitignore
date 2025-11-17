@@ -1,0 +1,84 @@
+# Node / package managers
+node_modules/
+.pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# pnpm store (local)
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+.out/
+.next/
+.next/cache/
+.vercel_build_output/
+.vercel/
+.cache/
+.vite/
+esbuild/
+lib/
+
+# TypeScript / transpiler cache
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+# Coverage
+coverage/
+coverage-final.json
+.nyc_output/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+.env.*.secret
+.envrc
+.env.*.backup
+!.env.example
+
+# Editor and OS files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+Thumbs.db
+
+# Test and snapshot artifacts
+jest-cache/
+jest-coverage/
+playwright-report/
+*.snap
+
+# Lockfiles & package manager artifacts (if generated locally)
+.pnp.*
+.reports/
+
+# Misc
+*.pem
+*.key
+*.crt
+*.log.*
+*.tmp
+*.temp
+
+# Storybook / static exports
+storybook-static/
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Ignore local tooling artifacts
+*.local
